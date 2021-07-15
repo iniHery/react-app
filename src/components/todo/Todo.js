@@ -5,9 +5,9 @@ import TodoCreate from "../todo-create/TodoCreate";
 
 const Todo = () => {
   const [getTodos, setTodos] = useState([
-    { id: 1, tittle: "Eat" },
-    { id: 2, tittle: "Sleep" },
-    { id: 3, tittle: "Code" },
+    // { id: 1, tittle: "Eat" },
+    // { id: 2, tittle: "Sleep" },
+    // { id: 3, tittle: "Code" },
   ]);
 
   const eventCreateTodo = (todo) => {
@@ -17,7 +17,7 @@ const Todo = () => {
 
   return (
     <div>
-      <h3>Todo List</h3>
+      <h3>Ketik Sesuatu</h3>
       <TodoCreate onCreateTodo={eventCreateTodo} />
       <TodoList dataTodos={getTodos} />
     </div>

@@ -2,3 +2,16 @@
   margin: 2rem;
   text-align: center;
 }
+
+button {
+  border-radius: 5px;
+  border: 1px solid black;
+  cursor: pointer;
+  padding: 6px;
+}
+
+input {
+  padding: 6px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
